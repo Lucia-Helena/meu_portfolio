@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+.projeto {
+    border : 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.projeto:hover {
+    background: #f4f4f4;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+}
+
+#sobre img {
+    border-radius: 50%;
+    width: 150px;
+    margin-right: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+}
+
+section#contato {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2 5px rgba(0, 0, 0, 0.1);
+}
+
+section#contato h2 {
+    margin-top: 0;
+}
+
+section#contato ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#contato li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+section#contato img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+section#contato a:hover {
+    text-decoration: underline;
+    color: #0073e6;
+}
+
+
+@media (max-width) {
+    section {
+        padding: 10px;
+    }
+     nav ul li {
+        display: block;
+        margin: 5px 0;
+     }
+}
+
+
