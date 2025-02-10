@@ -61,6 +61,7 @@ section {
 
 .projeto {  
   background: #c7a87b ;
+  border-radius: 10px;
   border: 1px solid #ddd;  
   padding: 20px;  
   margin-bottom: 20px;  
