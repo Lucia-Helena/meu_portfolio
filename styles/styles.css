@@ -1,5 +1,5 @@
 body {  
-  background: #b8aa95;  
+  background: #fff;  
   font-family: 'Roboto', sans-serif;  
   line-height: 1.6;  
   margin: 0;  
@@ -110,7 +110,7 @@ h2 {
 footer {  
   text-align: center;  
   padding: 20px 0;  
-  background: #7e7a7a;  
+  background: #b8aa95;  
   color: #fff;  
 }  
 
