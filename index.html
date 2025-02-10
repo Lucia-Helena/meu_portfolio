@@ -1,71 +1,72 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Meu Portflólio</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Meu Portfólio</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./styles/styles.css">  
+</head>  
+<body>  
+    <header>  
+        <nav>  
+            <ul>  
+                <li><a href="#sobre">Sobre</a></li>  
+                <li><a href="#projetos">Projetos</a></li>  
+                <li><a href="#contato">Contatos</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
 
-    <section id="sobre">
-        <img src="./image/perfil.jpeg" alt="Minha foto">
-       <div>
-        <h2>Sobre mim</h2>
-        <p>Sou uma desenvolvedora apaixonada por tecnologia e inovação.</p>
-       </div>
-    </section>
+    <main>  
+        <section id="sobre">  
+            <div class="sobre-container">  
+                <img src="./image/perfil.jpeg" alt="Minha foto" class="sobre-imagem">  
+                <div class="sobre-conteudo">  
+                    <h2>Sobre mim</h2>  
+                    <p>Olá! Meu nome é Lúcia Helena Proença. Sou uma desenvolvedora Front End apaixonada por tecnologia e inovação, com experiência em criar soluções inovadoras e atraentes para a web. Estou sempre buscando aprender e melhorar minhas habilidades em tecnologias como HTML, CSS, JavaScript e frameworks como React e outras ferramentas. Meu objetivo é criar experiências de usuário excepcionais e contribuir para o desenvolvimento de soluções tecnológicas inovadoras. Se você quiser saber mais sobre mim ou sobre meus projetos, fique à vontade para entrar em contato!</p>  
+                </div>  
+            </div>  
+        </section>  
 
-    <section id="projetos">
-        <H2>Meus Projetos</H2>
-        <div class="projeto" onclick="abriProjeto('https://efood-gamma-wheat.vercel.app/')">
-            <h3>Projeto 1</h3>
-            <p>Descrição do projeto 1</p>
+        <section id="projetos">  
+            <h2>Projetos</h2>  
+            <div class="projeto">  
+                <p>Este projeto consiste em uma aplicação de restaurante delivery desenvolvida com React, utilizando a biblioteca Styled Components para estilização e React Router para gerenciamento de rotas. A proposta é oferecer uma interface intuitiva e responsiva que permita aos usuários navegar facilmente pelo cardápio, realizar pedidos e acompanhar o status das entregas.</p>  
+            </div>  
+            <div class="projeto">  
+                <p>Descrição do projeto 2</p>  
+            </div>  
+            <div class="projeto">  
+                <p>Descrição do projeto 3</p>  
+            </div>  
+        </section>  
 
-        </div>
-        <div class="projeto" onclick="abriProjeto('https://efood-gamma-wheat.vercel.app/')">
-            <h3>Projeto 2</h3>
-            <p>Descrição do projeto 2</p>
+        <section id="contato">  
+            <h2>Contato</h2>  
+            <ul class="contato-lista">  
+                <li>  
+                    <img src="./image/icons/icons8-email-50.png" alt="Email">  
+                    <a href="luciahproenca@gmail.com">Email</a>  
+                </li>  
+                <li>  
+                    <img src="./image/icons/icons8-linkedin-50.png" alt="Linkedin">  
+                    <a href="https://www.linkedin.com/in/l%C3%BAcia-helena-proen%C3%A7a-0b610b289/">Linkedin</a>  
+                </li>  
+                <li>  
+                    <img src="./image/icons/icons8-github-50.png" alt="Github">  
+                    <a href="https://github.com/Lucia-Helena">Github</a>  
+                </li>  
+            </ul>  
+        </section>  
+    </main>  
 
-        </div>
-        <div class="projeto" onclick="abriProjeto('https://efood-gamma-wheat.vercel.app/')">
-            <h3>Projeto 3</h3>
-            <p>Descrição do projeto 3</p>
-        </div>
-    </section>
+    <footer>  
+        <p>&copy; 2025 Feito por Lúcia Helena Proença</p>  
+    </footer>  
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <ul>
-            <li>
-                <img src="./image/icons/icons8-email-50.png" alt="Email">
-                <a href="luciahproenca@gmail.com">Email</a>
-            </li>
-            <li>
-                <img src="./image/icons/icons8-linkedin-50.png" alt="Linkedin">
-                <a href="https://www.linkedin.com/in/l%C3%BAcia-helena-proen%C3%A7a-0b610b289/">Linkedin</a>
-            </li>
-            <li>
-                <img src="./image/icons/icons8-github-50.png" alt="Github">
-                <a href="https://github.com/Lucia-Helena">Github</a>
-            </li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Feito por Lúcia Helena Proença</p>
-    </footer>
-
-    <script src="./script/script.js"></script>
-</body>
+    <script src="./script/script.js"></script>  
+</body>  
 </html>
