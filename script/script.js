@@ -1,8 +1,8 @@
-debugger;  
+
 const projetos = [  
-  { nome: 'Efood - Restaurante delivery', url: 'https://efood-gamma-wheat.vercel.app/' },  
-  { nome: 'Projeto 2', url: 'https://efood-gamma-wheat.vercel.app/' },  
-  { nome: 'Projeto 3', url: 'https://efood-gamma-wheat.vercel.app/' },  
+  { nome: '', url: 'https://efood-gamma-wheat.vercel.app/' },  
+  { nome: '', url: 'https://forno-a-lenha.vercel.app/' },  
+  { nome: '', url: 'https://efood-gamma-wheat.vercel.app/' },  
 ];  
 
 function handleProjectClick(url) {  
